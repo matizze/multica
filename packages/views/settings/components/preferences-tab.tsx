@@ -167,6 +167,7 @@ function LanguageRow() {
     { value: "ko", label: t(($) => $.preferences.language.korean) },
     { value: "ja", label: t(($) => $.preferences.language.japanese) },
     { value: "fr", label: t(($) => $.preferences.language.french) },
+    { value: "pt-BR", label: t(($) => $.preferences.language.portuguese) },
   ];
 
   // Persist locally → sync to user.language → reload. Reload (vs in-place

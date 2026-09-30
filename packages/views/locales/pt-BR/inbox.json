@@ -1,0 +1,122 @@
+{
+  "page": {
+    "title": "Caixa de entrada",
+    "back": "Caixa de entrada"
+  },
+  "menu": {
+    "mark_all_read": "Marcar todas como lidas",
+    "archive_all": "Arquivar todas",
+    "archive_all_read": "Arquivar todas as lidas",
+    "archive_completed": "Arquivar concluídas"
+  },
+  "filters": {
+    "tooltip": "Filtrar caixa de entrada",
+    "active_count_one": "{{count}} filtro ativo",
+    "active_count_other": "{{count}} filtros ativos",
+    "status": "Status",
+    "priority": "Prioridade",
+    "from": "De",
+    "unread_only": "Somente não lidas",
+    "notification_count_one": "{{count}} notificação",
+    "notification_count_other": "{{count}} notificações",
+    "clear": "Limpar filtros",
+    "empty": "Nenhuma notificação corresponde aos seus filtros"
+  },
+  "context_menu": {
+    "mark_read": "Marcar como lida",
+    "mark_unread": "Marcar como não lida",
+    "archive": "Arquivar",
+    "unarchive": "Desarquivar",
+    "open_in_new_tab": "Abrir em nova guia"
+  },
+  "list": {
+    "loading_selection": "Carregando notificação…",
+    "empty": "Nenhuma notificação",
+    "mark_done_tooltip": "Marcar como concluída",
+    "archive_tooltip": "Arquivar",
+    "time": {
+      "just_now": "agora mesmo",
+      "minutes": "{{count}} min",
+      "hours": "{{count}} h",
+      "days": "{{count}} d"
+    },
+    "archived_title": "Arquivadas",
+    "archived_empty": "Nenhuma notificação arquivada",
+    "unarchive_tooltip": "Desarquivar",
+    "actions_aria": "Ações da notificação",
+    "load_more": "Carregar mais",
+    "loading_more": "Carregando…",
+    "retry": "Tentar novamente"
+  },
+  "detail": {
+    "select_prompt": "Selecione uma notificação para ver os detalhes",
+    "empty": "Sua caixa de entrada está vazia",
+    "original_input": "Entrada original",
+    "retry_with_context": "Tentar novamente com o contexto",
+    "edit_advanced": "Editar como formulário avançado",
+    "autopilot_quota_exceeded_body": "Este espaço de trabalho atingiu o limite de {{limit}} execuções de autopilot no período atual. Novas execuções de autopilot não serão iniciadas até que a cota seja renovada em {{resetAt}}.",
+    "autopilot_quota_upgrade": "Ver opções de upgrade",
+    "archive": "Arquivar",
+    "unarchive": "Desarquivar"
+  },
+  "types": {
+    "issue_assigned": "Atribuída",
+    "issue_subscribed": "Inscrito",
+    "unassigned": "Sem atribuição",
+    "assignee_changed": "Responsável alterado",
+    "status_changed": "Status alterado",
+    "priority_changed": "Prioridade alterada",
+    "start_date_changed": "Data de início alterada",
+    "due_date_changed": "Data de vencimento alterada",
+    "new_comment": "Novo comentário",
+    "mentioned": "Mencionado",
+    "review_requested": "Revisão solicitada",
+    "task_completed": "Execução concluída",
+    "task_failed": "Execução falhou",
+    "agent_blocked": "Agente bloqueado",
+    "agent_completed": "Agente concluído",
+    "reaction_added": "Reagiu",
+    "quick_create_done": "Criada com agente",
+    "quick_create_failed": "Falha ao criar com agente",
+    "quick_create_unconfirmed": "Criação com agente não confirmada",
+    "autopilot_paused": "Autopilot pausado",
+    "children_done": "Sub-issues concluídas",
+    "autopilot_quota_exceeded": "Limite de execuções de autopilot atingido"
+  },
+  "labels": {
+    "set_status_to": "Definir status como",
+    "set_priority_to": "Definir prioridade como",
+    "assigned_to": "Atribuída a {{name}}",
+    "removed_assignee": "Responsável removido",
+    "set_start_date_to": "Definir data de início como {{date}}",
+    "removed_start_date": "Data de início removida",
+    "set_due_date_to": "Definir data de vencimento como {{date}}",
+    "removed_due_date": "Data de vencimento removida",
+    "reacted_to_comment": "Reagiu {{emoji}} ao seu comentário",
+    "created_with_agent": "Criada com agente: {{identifier}}",
+    "failed_with_detail": "Falhou: {{detail}}",
+    "autopilot_quota_blocked": "Execução bloqueada porque o limite foi atingido",
+    "children_done_stage": "Sub-issues do estágio {{stage}} concluídas"
+  },
+  "toasts": {
+    "source_context_retry_started": "Nova tentativa iniciada com o contexto original",
+    "archived": "Notificação arquivada",
+    "unarchived": "Notificação restaurada"
+  },
+  "errors": {
+    "archived_lookup_failed": "Não foi possível carregar a notificação vinculada",
+    "source_context_retry_failed": "Não foi possível tentar novamente com o contexto original",
+    "source_context_retry_unavailable": "Este contexto não pode mais ser reexecutado. Comece novamente a partir do ponto de ramificação.",
+    "mark_read_failed": "Falha ao marcar como lida",
+    "mark_unread_failed": "Falha ao marcar como não lida",
+    "archive_failed": "Falha ao arquivar",
+    "mark_done_failed": "Falha ao marcar como concluída",
+    "mark_all_read_failed": "Falha ao marcar todas como lidas",
+    "archive_all_failed": "Falha ao arquivar todas",
+    "archive_all_read_failed": "Falha ao arquivar os itens lidos",
+    "archive_completed_failed": "Falha ao arquivar as concluídas",
+    "unarchive_failed": "Falha ao desarquivar",
+    "archived_load_failed": "Falha ao carregar as notificações arquivadas",
+    "filters_load_failed": "Não foi possível carregar os filtros"
+  }
+}
