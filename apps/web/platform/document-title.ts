@@ -12,8 +12,10 @@
  * imports `SITE_TITLE` / `TITLE_TEMPLATE` for its metadata export.
  */
 
+import { SITE_TITLES } from "@/lib/site-seo";
+
 /** Root fallback — the title of a page that has nothing more specific to say. */
-export const SITE_TITLE = "Multica — Project Management for Human + Agent Teams";
+export const SITE_TITLE = SITE_TITLES.en;
 
 /** Appended to every page-specific title. */
 export const TITLE_SUFFIX = " | Multica";
